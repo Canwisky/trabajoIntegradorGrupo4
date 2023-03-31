@@ -12,7 +12,7 @@
     
     <div class="container">
 
-         <form id="survey-form">
+         <form class="activo">
 
             <button class="form-group skip" id="prev">Primer Paso</button>
             <button class="form-group skip" id="next">Segundo Paso</button>
@@ -37,18 +37,25 @@
                 required
               />
             </div>
-             <div class="form-group">
-              <p>selecciona el plan para obtener presupuesto</p>
-              <select id="dropdown" name="role" class="form-control" required>
-                <option disabled selected value>Seleccionar servicio</option>
-                <option value="landing">Landing page</option>
-                <option value="eCommerce">E-commerce</option>
-              </select>
-            </div>
-           
-          <button class="submit-button">Descargar PDF</button>
-           
-           </div>
+
+          </form>
+    
+          <form class="inactivo">
+
+          <div>
+           <p>selecciona el plan para obtener presupuesto</p>
+           <select id="dropdown" name="role" class="form-control" required>
+             <option disabled selected value>Seleccionar servicio</option>
+             <option value="landing">Landing page</option>
+             <option value="eCommerce">E-commerce</option>
+           </select>
+         </div>
+        
+       <button class="submit-button">Descargar PDF</button>
+
+          </form>
+
+        </div>
 
 </body>
 </html>
